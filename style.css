@@ -93,3 +93,26 @@ button:hover{
     color: #fff;
     margin-top: 10px;
 }
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    #weather-container {
+        max-width: 100%;
+    }
+
+    #hourly-forecast {
+        margin-top: 20px;
+    }
+
+    .hourly-item {
+        width: 60px;
+    }
+
+    #weather-icon {
+        width: 150px;
+        height: 150px;
+    }
+}
